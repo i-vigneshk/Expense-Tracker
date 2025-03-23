@@ -84,5 +84,4 @@ Manages income tracking.
 - Pie charts for income and expense are of equal size.
 - Transactions update in real-time when added or removed.
 
-This documentation provides an in-depth understanding of the **Expense Calculator**. Let me know if you need modifications! 🚀
 
