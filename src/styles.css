@@ -1,0 +1,57 @@
+/* Responsive CSS for Expense Tracker */
+
+/* Large screens (Desktops) */
+@media screen and (max-width: 1400px) {
+    .container {
+      width: 80%;
+      margin: auto;
+    }
+    .summary {
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* Medium screens (Tablets) */
+  @media screen and (max-width: 1200px) {
+    .nav {
+      display: none;
+    }
+    .mobile-nav {
+      display: flex;
+    }
+    .transactions {
+      flex-direction: column;
+    }
+    .balance-section,
+    .history-section {
+      width: 100%;
+    }
+  }
+  
+  /* Small screens (Mobile) */
+  @media screen and (max-width: 600px) {
+    .container {
+      width: 95%;
+    }
+    .summary {
+      flex-direction: column;
+    }
+    .summary-item {
+      width: 100%;
+      text-align: center;
+    }
+    .history-section {
+      margin-top: 1rem;
+    }
+    .transaction-item {
+      flex-direction: column;
+      align-items: center;
+    }
+    .transaction-amount {
+      font-size: 1rem;
+    }
+    .add-transaction {
+      width: 100%;
+    }
+  }
+  
